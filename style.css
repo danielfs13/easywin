@@ -202,6 +202,8 @@ position: absolute;
             }
 
         /* professor */
+
+
             .professor{
                 font-size: 3.5vw;
                 display: flex;
@@ -280,6 +282,17 @@ position: absolute;
 
 /* Lista de Professores */
 
+#mestres{
+    display: flex;
+    font-size: 4vw;
+    width: 100vw;
+    text-transform: uppercase;
+    white-space:nowrap;
+    width: 10vw;
+    color: rgb(75, 75, 75);
+    margin-left: 32vw;
+}    
+
 .professores{
     display: flex;
     position: absolute;
@@ -297,6 +310,8 @@ position: absolute;
     display: flex;
     list-style: none;
     flex-direction: column;
+    margin-top: 15vh;
+
 
 }
 
@@ -312,6 +327,7 @@ position: absolute;
     border-width: 0.5px;
     padding: 1em;
     margin-bottom: 2.5em;
+    margin-left: -42vw;
     
 }
 
@@ -384,18 +400,80 @@ position: absolute;
         padding-right: 10vw;
     }
 
-    #imgbanner1{
-    display:flex;
-    float: right;
-    margin-top: 2.5vw;
-    width: 40vw;
-    margin-right: 5vw;
+            #imgbanner1{
+            display:flex;
+            float: right;
+            margin-top: 2.5vw;
+            width: 40vw;
+            margin-right: 5vw;
+            }
+
+            .banner1 h2{
+            font-size: 6vw; 
+            }
+
+            #banner1bottom .tempo {
+                font-size: 3vw;
+                margin-top: 0vh;
+                margin-left: -0vw;
+                
+            }
+
+            #tempotitle{
+                font-size: 3.5vw;
+            }
+
+            #professortitle{
+                font-size: 3.5vw;  
+            }
+
+            #tempotxt {
+                margin-top: 8vh;
+                margin-left: -10vw;
+            }
+
+            #banner1bottom .professor {
+                font-size: 3vw;
+                margin-top: 0vh;
+            }
+
+            #professortext {
+                margin-left: -10vw;
+                margin-top: 7.5vh;
+            }
+
+                    .banner2{
+                        margin-top: -30vh;
+                    }
+
+                            .professores{
+                              margin-top: 90vh;
+                              height: 20vh;
+                            }
+
+                            #listaprofessores{
+                                width: 15vw;
+                                margin-left: 18vw;
+                            }
+
+                            #listaprofessores .maisbtn{
+                                margin-left: 4vw;
+                            }
+
+                            #listaprofessores .eloicon{
+                            width: 10vw;
+                            margin-left: 35vw;
+                            }
+}
+
+@media (min-width:750px) {
+    .banner2 {
+        margin-top: -20vh;
     }
 
-    .banner1 h2{
-    font-size: 4.5vw;  
+    .professores{
+        margin-top: 100vh;
     }
-
 }
 
 
@@ -407,6 +485,7 @@ position: absolute;
     justify-content: space-between;
     width: 100vw;
     margin-top: 0;
+    line-height: 0.5rem;
 }
 
     .nav-item{
@@ -421,13 +500,18 @@ position: absolute;
         margin: 0 0 0 0.3rem;
     }
 
+    .banner1{
+        margin-top: 15vh;
+    }
+
     #imgbanner1{
         display:flex;
         float: right;
-        margin-top: 10vw;
+        margin-top: 20vh;
         width: 35vw;
         margin-right: 10vw;
         }
+
     .banner1 h2{
         font-size: 3.5vw;
         }
@@ -442,17 +526,22 @@ position: absolute;
     width: 90%;
     height: 50vh;
     margin-left: -4vw;
-    margin-top: 140vh;
+    margin-top: 120vh;
     justify-self: center;
     
 }
+    #mestres{
+        margin-left: 35vw;
+    }
 
 #listaprofessores{
     position: relative;
     height: 50vh;
     display: flex;
     list-style: none;
-    flex-direction: column;
+    flex-direction: row;
+    margin-left: 0vw;
+    width: 20vw;
 
 }
 
@@ -468,14 +557,16 @@ position: absolute;
     border-width: 0.5px;
     padding: 1em;
     margin-bottom: 2.5em;
+    width: 25vw;
+    margin-right: 50vw;
     
 }
 
 #listaprofessores .eloicon{
     display: flex;
-    width: 15vw;
+    width: 5vw;
     height: 2em;
-    margin-left: 55vw;
+    margin-left: 15vw;
     margin-top: -8vh;
     
 }
@@ -484,13 +575,13 @@ position: absolute;
     display: flex;
     text-align: center;
     align-content: center;
-    margin-left: 0vw;
+    margin-left: 1vw;
     margin-top: 5vh;
     background-color: #ff0000; /* Green */
     border: none;
     color: white;
     white-space: nowrap;
-    padding: 0.5em 5em;
+    padding: 0.5em 3em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -498,8 +589,6 @@ position: absolute;
     text-transform: uppercase;
     border-radius: 8px;
 }
-
-/* MEDIA QUERRY */
 
 @media (max-height:800px) {
 .banner2{
@@ -539,6 +628,52 @@ position: absolute;
 
 }
 }
+@media (min-width: 1000px) {
+
+    .header-nav{
+    width: 100vw;
+    }
+
+    .banner1{
+    margin-left: -5vw;
+    }
+
+    .banner2{
+        margin-top: -5vh;
+    }
+
+    #gamelist{
+        margin-top: 10vh;
+    }
+
+    #csgoicon ,#vaicon, #lolicon{
+        width: 10vw;
+    }
+
+    .professores{
+        margin-top: 130vh;
+    }
+
+    #listaprofessores{
+        justify-content: space-between;
+        
+        
+
+    }
+    .plist{
+        width: 20;
+        margin-left: 10vw;
+
+    }
+
+    #professor1, #professor2, #professor3 {
+    margin-left: -49vw;
+    width: 30vw;
+    padding-right: 20rem;
+    margin-right: 50vw;
+    }
+}
+
 
 @media (min-width: 1200px) {
     .header-nav {
@@ -554,20 +689,101 @@ position: absolute;
         padding-right: 5vw;
     }
 
+    .banner1{
+    margin-top: 10vh;
+    }
+
     #imgbanner1{
         display:flex;
         float: right;
-        margin-top: 5vw;
+        margin-top: 0vw;
         width: 35vw;
-        margin-right: 10vw;
+        margin-right: 0vw;
         }
+
+    #play{
+        font-size: 4vw;
+        margin-top: 5vh;
+        
+    }
+
+    #rank{
+        font-size: 6vw;
+        margin-left: 20vw;
+    }
+
+    #banner1bottom{
+        margin-top: -20vh;
+        margin-left: 49vw;
+    }
+
+    #tempotitle{
+        font-size: 2.5vw;
+    }
+
+    #tempotxt{
+        font-size: 1.5vw;
+    }
+
+    .timeicon{
+        font-size: 5vw;
+    }
+
+    .phoneicon{
+        font-size: 5vw;
+    }
+
+    #professortitle{
+        font-size: 2.5vw;
+    }
+
+    #professortext{
+        font-size: 1.5vw;
+    }
+
+    .banner2{
+        width: 90vw;
+        margin-top: -40vh;
+        margin-left: 5vw;
+    }
+
+    #escolha{
+        display: flex;
+        margin-left: 25vw;
+    }
+
+    .professores{
+        margin-top: 100vh;
+
+    }
+
+    #listaprofessores{
+        margin-top: 20vh;
+
+    }
+
+    .plist{
+        width: 20vw;
+        margin-left: 14vw;
+    }
+
+
+
+   #listaprofessores .eloicon{
+        margin-left: 12vw;
+        width: 5vw;
+    }
+
+    body{
+        width: 100vw;
+    }
 }
 
 @media (min-width: 1400px) {
     .header-nav {
         display: flex;
         justify-self: left;
-        width: 100vw;
+        width: 100%;
 }
 
 #imgbanner1{
@@ -575,6 +791,103 @@ position: absolute;
     float: right;
     margin-top: 5vw;
     width: 35vw;
-    margin-right: 10vw;
+    margin-right: 0vw;
     }
+
+
+#tempotitle{
+    margin-top: -20vh;
+}
+
+#tempotxt{
+    margin-top: -15vh;
+}
+
+.timeicon{
+    margin-top: -20vh;
+}
+#professortitle{
+    margin-top: -5vh;
+}
+
+#professortext{
+    margin-top: -0vh;
+}
+
+.phoneicon{
+    margin-top: -2vh;
+}
+
+.banner2{
+    margin-top: -35vh;
+}
+}
+@media (min-width: 1700px){
+
+#escolha{
+    margin-top: 40vh;
+}
+
+    #gamelist{
+        margin-top: 20vh;
+    }
+#mestres{
+    margin-top:88vh;
+}
+
+.plist{
+    margin-top: 90vh;
+}
+}
+@media (min-width: 1800px){
+    #imgbanner1{
+        display:flex;
+        float: right;
+        margin-top: 5vw;
+        width: 35vw;
+        margin-right: 0vw;
+        }
+    
+    
+    #tempotitle{
+        margin-top: -40vh;
+    }
+    
+    #tempotxt{
+        margin-top: -32.5vh;
+    }
+    
+    .timeicon{
+        margin-top: -40vh;
+    }
+    #professortitle{
+        margin-top: -25vh;
+    }
+    
+    #professortext{
+        margin-top: -17.5vh;
+    }
+    
+    .phoneicon{
+        margin-top: -20vh;
+    }
+    
+    .banner2{
+        margin-top: -0vh;
+}
+
+#mestres{
+    margin-top: 50vh;
+}
+
+#listaprofessores{
+    margin-top: 60vh;
+}
+
+.plist{
+    width: 25vh;
+    margin-right: -300vw;
+}
+
+
 }
