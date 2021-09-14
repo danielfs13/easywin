@@ -478,14 +478,37 @@ position: absolute;
 
     .email{
         margin-top: 15vh;
-        margin-left: -48.5vw;
+        margin-left: -43.5vw;
     }
 
    #redes{
        margin-left: -0vw;
-       
-
+    
    } 
+
+   .fcontainer{
+       margin-top: 410vh;
+   }
+
+}
+
+@media (min-width: 375px) and (max-height: 667px){
+    .fcontainer{
+        margin-top: 390vh;
+    }
+}
+
+@media (min-width: 375px) and (min-height: 800px) {
+    .fcontainer{
+        margin-top: 315vh;
+    }
+}
+
+
+@media (min-width:400px){
+    .fcontainer{margin-top: 375vh;
+}
+
 }
 
 @media (min-width:500px){
@@ -628,7 +651,6 @@ position: absolute;
     .professores {
         margin-top: 140vh;
     }
-
 
     }
 
@@ -1244,7 +1266,7 @@ body{
         width: 25%;
         height: 2em;
         margin-left: 10vw;
-        margin-top: -8vh;
+        margin-top: -7vh;
         
     }
     
@@ -1252,7 +1274,7 @@ body{
         display: flex;
         text-align: center;
         align-content: center;
-        margin-left: 1vw;
+        margin-left:1.5vw;
         margin-top: 5vh;
         background-color: #ff0000; /* Green */
         border: none;
@@ -1270,62 +1292,6 @@ body{
 .fcontainer{
     width: 100%;
     margin-top: 280vh;
-}
-
-}
-@media (min-width: 1800px){
-    #imgbanner1{
-        display:flex;
-        float: right;
-        margin-top: 5vw;
-        width: 35vw;
-        margin-right: 0vw;
-        }
-    
-    
-    #tempotitle{
-        margin-top: -40vh;
-    }
-    
-    #tempotxt{
-        margin-top: -32.5vh;
-    }
-    
-    .timeicon{
-        margin-top: -40vh;
-    }
-    #professortitle{
-        margin-top: -25vh;
-    }
-    
-    #professortext{
-        margin-top: -17.5vh;
-    }
-    
-    .phoneicon{
-        margin-top: -20vh;
-    }
-    
-    .banner2{
-        margin-top: 5vh;
-}
-
-
-.professores{
-    margin-top: 100vh;
-}
-#mestres{
-    margin-top: 89vh;
-}
-
-#listaprofessores{
-    margin-top: 60vh;
-    margin-left: -35vw;
-}
-
-.plist{
-    margin-right: 0vw;
-    margin-top: 45vh;
 }
 
 }
