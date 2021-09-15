@@ -39,9 +39,13 @@ blockquote, q {
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
 	content: none;
+
 }
+
+.flexbox:before, .flexbox:after  {
+	content: none;
+  }
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
