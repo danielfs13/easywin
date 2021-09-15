@@ -102,31 +102,27 @@ img {
 
 .banner1 {
 position: absolute;
- width: 100%;
- height: 50vw;
+ width: auto;
  margin-left: 0vw;
- margin-top: 3.5vh;
 }
 
         #imgbanner1 {
         display: flex;
-        margin-left: -2.5vw;
+        margin-left: 0;
 
         }
 
         .banner1 h2{
-        font-size: 7.5vw;
+        font-size: 2.5rem;
         font-weight: lighter;
         display: flex;
         float: center;
         justify-content: center;
         align-content: center;
-        margin-left: 0vw;
         }
 
         #play {
         display:flex;
-        margin-top: 5vh;
         color: black;
         }
 
@@ -134,135 +130,99 @@ position: absolute;
 
         display: flex;
         color: red;
-        margin-top: -1vh;
 
-        }
-
-
-        hr{
-        color: white;
-        width: 20vw;    
         }
 
             #banner1bottom{
             color: gray;
             display: inline-block;
-            margin-left: 38vw;
+            padding-left: 4.5rem;
+            padding-top: 2rem;
             
 
             }
 
             .timeicon{
-            font-size: 12vw;
-            margin-left: -25vw;
-            margin-top: 3vh;
+            font-size: 3rem;
+            margin-top: 1.5rem;
             }
 
             .phoneicon{
-                font-size: 12vw;
-                margin-left: -25vw;
-                margin-top: 4vh;    
+                font-size: 3rem; 
+                margin-top: 1.5rem;
             }
 
             /* TEMPO */
             .tempo{
-            font-size: 3.5vw;
+            font-size: 0.9rem;
             display: flex;
-            width: 20vw;
-            margin-left:0;
             }
 
             #tempotitle{
             display: flex;
-            font-size: 4vw;
-            width: 100vw;
+            font-size: 1.5rem;
             text-transform: uppercase;
-            margin-top: 2vh;
+            margin-top: 0.5rem;
             margin-left:2.4rem;
             white-space:nowrap;
-            width: 10vw;
             color: rgb(75, 75, 75);
 
             }
 
-            .tempo p{
-            display: flex;
-            margin-top: 5vh;
-            margin-left:300vw;
-            text-align: center;
-            }
-
-
             #tempotxt{
             display: flex;
             white-space:nowrap;
-            margin-left: -3rem;
-            width: 10vw;
-            margin-top: 6.5vh;
+            margin-top: 4rem;
+            margin-left: -11rem;
             }
 
         /* professor */
 
 
             .professor{
-                font-size: 3.5vw;
+                font-size: 0.9rem;
                 display: flex;
-                width: 10vw;
-                margin-left:0rem;
+                padding-top: 4rem;
             }
 
             .professor p{
                 display: flex;
-                margin-top: 5vh;
-                margin-left:10vw;
                 text-align: left;
             }
 
             #professortitle {
                 display: flex;
-                font-size: 4vw;
-                width: 100vw;
+                font-size: 1.5rem;
                 text-transform: uppercase;
-                margin-top: 2vh;
                 margin-left:2.3rem;
                 white-space:nowrap;
-                width: 10vw;
                 color: rgb(75, 75, 75);
             }
 
             #professortext{
                 display: flex;
                 white-space:nowrap;
-                margin-left: -3rem;
-                width: 1vw;
-                margin-top: 6.5vh;
+                margin-left: -13rem;
+                margin-top: 4rem;
             }
 
 /* BANNER 2 */
 
 .banner2{
-    position: absolute;
-    width: 100%;
-    height: 55vw;
-    margin-left: 0vw;
-    top: 100vh;
+    display: flex;
+    padding-top: 60rem;
 }
 
             .banner2 p{
             display: flex;
-            font-size: 4vw;
-            width: 100vw;
+            font-size: 2rem;
             text-transform: uppercase;
-            margin-top: 5vh;
-            margin-left:27vw;
             white-space:nowrap;
-            width: 10vw;
             color: rgb(75, 75, 75);
         }
 
             .banner2 img{
             display: flex;
-            width: 15vw;
             }
 
 /* Lista de Games */
@@ -276,9 +236,6 @@ position: absolute;
     margin: 0; 
 }
 
-.games {
-    margin-top: 5vh; 
-}
 
 /* Lista de Professores */
 
@@ -455,843 +412,3 @@ position: absolute;
 
 /* 6.7.8 */
 
-@media (max-width: 320px) {
-    #listaprofessores{
-        margin-left: -9vw;
-    }
-
-    .fcontainer{
-        margin-top: 420vh;
-        width:100vw;
-        overflow: hidden;
-    }
-
-    #fcontato {
-        position: relative;
-        display: flex;
-        margin-left: 5vw;
-    }
-    .telefone{
-        margin-top: 8.5vh;
-        margin-left: -20vw;
-    }
-
-    .email{
-        margin-top: 15vh;
-        margin-left: -43.5vw;
-    }
-
-   #redes{
-       margin-left: -0vw;
-    
-   } 
-
-   .fcontainer{
-       margin-top: 410vh;
-   }
-
-}
-
-@media (min-width: 375px) and (max-height: 667px){
-    .fcontainer{
-        margin-top: 390vh;
-    }
-}
-
-@media (min-width: 375px) and (min-height: 800px) {
-    .fcontainer{
-        margin-top: 315vh;
-    }
-}
-
-
-@media (min-width:400px){
-    .fcontainer{margin-top: 375vh;
-}
-
-}
-
-@media (min-width:500px){
-    .fcontainer{
-        margin-top: 320vh;
-    }
-}
-@media (min-width:600px) {
-    .header-nav {
-        line-height: 1.5rem;
-        width: auto;
-        margin-left: 0;
-        margin-top: 0;
-        top: 0;
-    }
-
-    .nav-item{
-        padding-right: 10vw;
-    }
-
-            #imgbanner1{
-            display:flex;
-            float: right;
-            margin-top: 2.5vw;
-            width: 40vw;
-            margin-right: 5vw;
-            }
-
-            .banner1 h2{
-            font-size: 6vw; 
-            }
-
-            #banner1bottom .tempo {
-                font-size: 3vw;
-                margin-top: 0vh;
-                margin-left: -0vw;
-                
-            }
-
-            #tempotitle{
-                font-size: 3.5vw;
-            }
-
-            #professortitle{
-                font-size: 3.5vw;  
-            }
-
-            #tempotxt {
-                margin-top: 8vh;
-                margin-left: -10vw;
-            }
-
-            #banner1bottom .professor {
-                font-size: 3vw;
-                margin-top: 0vh;
-            }
-
-            #professortext {
-                margin-left: -10vw;
-                margin-top: 7.5vh;
-            }
-
-                    .banner2{
-                        margin-top: -30vh;
-                    }
-
-                            .professores{
-                              margin-top: 90vh;
-                              height: 20vh;
-                            }
-
-                            #listaprofessores{
-                                width: 15vw;
-                                margin-left: 18vw;
-                            }
-
-                            #listaprofessores .maisbtn{
-                                margin-left: 4vw;
-                            }
-
-                            #listaprofessores .eloicon{
-                            width: 10vw;
-                            margin-left: 35vw;
-                            }
-
-                                    .fcontainer{
-                                        margin-top: 250vh;
-                                    }                         
-}
-
-@media (min-width: 620px){
-    .fcontainer{
-        margin-top: 260vh;
-    }    
-}
-
-@media (min-width:700px){
-    
-    .fcontainer{
-        margin-top: 270vh;
-    }
-    
-    #fbottom{
-    margin-top: -5vh;
-    height: 2.5vh;
-    }
-
-    .telefone{
-       margin-top: 15vh; 
-    }
-}
-@media (min-width:750px) {
-    .banner2 {
-        margin-top: -20vh;
-    }
-
-    .professores{
-        margin-top: 100vh;
-    }
-
-        .fcontainer{
-            margin-top: 300vh;
-        }   
-}
-
-@media (min-width:800px){
-    .fcontainer{
-        margin-top: 320vh;
-    }   
-}
-
-@media (max-height:800px) {
-    .banner2{
-        margin-top: 20vh;
-    }
-    .banner2 p{
-        margin-left: 30vw;
-    }
-    
-    .professores {
-        margin-top: 140vh;
-    }
-
-    }
-
-@media (min-width:900px) {
-    .header-nav {
-    display: flex;
-    justify-self: left;
-    float: left;
-    justify-content: space-between;
-    width: 100vw;
-    margin-top: 0;
-    line-height: 0.5rem;
-}
-
-    .nav-item{
-        padding-right: 1vw;
-    }
-
-    .nav-menu {
-        width: auto;
-    }
-
-    .logo{
-        margin: 0 0 0 0.3rem;
-    }
-
-    .banner1{
-        margin-top: 15vh;
-    }
-
-    #imgbanner1{
-        display:flex;
-        float: right;
-        margin-top: 20vh;
-        width: 35vw;
-        margin-right: 10vw;
-        }
-
-    .banner1 h2{
-        font-size: 3.5vw;
-        }
-
-    #play{
-    margin-top: 15vh;    
-    }
-
-     .professores{
-        margin-top: 60vh;
-    }
-    .professores{
-        display: flex;
-        position: absolute;
-        width: 40%;
-        height: 50vh;
-        margin-left: 0vw;
-        margin-top: 200vh;
-        justify-self: center;
-    }
-    
-    #professor1, #professor2, #professor3{
-        height: 5vh;
-    }
-    
-    #listaprofessores{
-        position: relative;
-        height: 50vh;
-        display: flex;
-        list-style: none;
-        flex-direction: row;
-        margin-left: -55vw;
-        width: 400vw;
-        justify-content: center;
-    
-    }
-    
-    #listaprofessores .pfoto{
-        display: flex;
-        width: 150%;
-    }
-    
-     .plist{
-        border-style: solid;
-        border-radius: 5%;
-        border-color: rgb(175, 175, 175);
-        border-width: 0.5px;
-        padding: 1em;
-        margin-bottom: 2.5em; 
-        margin-left: 10vw ;  
-        width: 25vw;
-        
-    }
-    
-    #listaprofessores .eloicon{
-        display: flex;
-        width: 25%;
-        height: 2em;
-        margin-left: 10vw;
-        margin-top: -8vh;
-        
-    }
-    
-    #listaprofessores .maisbtn {
-        display: flex;
-        text-align: center;
-        align-content: center;
-        margin-left: 1vw;
-        margin-top: 5vh;
-        background-color: #ff0000; /* Green */
-        border: none;
-        color: white;
-        white-space: nowrap;
-        padding: 0.5em 3em;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 1em;
-        text-transform: uppercase;
-        border-radius: 8px;
-    }
-
-.fcontainer{
-    width: auto;
-    margin-top: 280vh;
-}
-
-
-
-@media (max-height:800px) {
-.banner2{
-    margin-top: 20vh;
-}
-.banner2 p{
-    margin-left: 30vw;
-}
-
-}
-@media (min-width:600px) {
-    .header-nav {
-        line-height: 1.5rem;
-        width: auto;
-        margin-left: 0;
-        margin-top: 0;
-        top: 0;
-    }
-
-    .nav-item{
-        padding-right: 10vw;
-    }
-
-    #imgbanner1{
-    display:flex;
-    float: right;
-    margin-top: 2.5vw;
-    width: 40vw;
-    margin-right: 5vw;
-    }
-
-    .banner1 h2{
-    font-size: 4.5vw;  
-    }
-
-
-
-}
-}
-@media (min-width: 1000px) {
-
-    .header-nav{
-    width: 100vw;
-    }
-
-    .banner1{
-    margin-left: -5vw;
-    }
-
-    .banner2{
-        margin-top: -5vh;
-    }
-
-    #escolha{
-        margin-left: 30vw;
-    }
-
-    #gamelist{
-        margin-top: 10vh;
-    }
-
-    #csgoicon ,#vaicon, #lolicon{
-        width: 10vw;
-    }
-
-    .professores{
-        display: flex;
-        position: absolute;
-        width: 100%;
-        height: 50vh;
-        margin-left: 0vw;
-        margin-top: 130vh;
-        justify-self: center;
-    
-        
-    }
-    
-    
-    #listaprofessores{
-        position: relative;
-        height: 50vh;
-        display: flex;
-        list-style: none;
-        flex-direction: row;
-        margin-left: -55vw;
-        width: 600vw;
-        justify-content: center;
-        ;
-    
-    }
-    
-    #listaprofessores .pfoto{
-        display: flex;
-        width: 150%;
-    }
-    
-     .plist{
-        border-style: solid;
-        border-radius: 5%;
-        border-color: rgb(175, 175, 175);
-        border-width: 0.5px;
-        padding: 1em;
-        margin-bottom: 2.5em; 
-        margin-left: 10vw ;  
-        width: 20vw;
-        
-    }
-    
-    #listaprofessores .eloicon{
-        display: flex;
-        width: 25%;
-        height: 2em;
-        margin-left: 12vw;
-        margin-top: -8vh;
-        
-    }
-    
-    #listaprofessores .maisbtn {
-        display: flex;
-        text-align: center;
-        align-content: center;
-        margin-left: 1vw;
-        margin-top: 5vh;
-        background-color: #ff0000; /* Green */
-        border: none;
-        color: white;
-        white-space: nowrap;
-        padding: 0.5em 3em;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 1em;
-        text-transform: uppercase;
-        border-radius: 8px;
-    }
-
-        .fcontainer{
-            margin-top: 200vh;
-            font-size: 2vw;
-            width: 100vw;
-        }
-
-        .telefone{
-            margin-left: -20vw;
-        }
-
-        #fcontato{
-            margin-left: 20vw;
-        }
-    
-        #redes{
-            margin-left: 30vw;
-
-        }
-
-        .fbicon{
-            margin-left: -10vw;
-        }
-        
-        .email{
-            margin-left: -24vw;
-        }
-
-
-}
-
-
-@media (min-width: 1200px) {
-    .header-nav {
-        display: flex;
-        justify-self: left;
-        width: 100vw;
-        margin-left: -0vw;
-        margin-top: 0;
-        top:0;
-}
-
-    .nav-item{
-        padding-right: 5vw;
-    }
-
-    .banner1{
-    margin-top: 10vh;
-    }
-
-    #imgbanner1{
-        display:flex;
-        float: right;
-        margin-top: 0vw;
-        width: 35vw;
-        margin-right: 0vw;
-        }
-
-    #play{
-        font-size: 4vw;
-        margin-top: 5vh;
-        
-    }
-
-    #rank{
-        font-size: 6vw;
-        margin-left: 20vw;
-    }
-
-    #banner1bottom{
-        margin-top: -20vh;
-        margin-left: 49vw;
-    }
-
-    #tempotitle{
-        font-size: 2.5vw;
-    }
-
-    #tempotxt{
-        font-size: 1.5vw;
-    }
-
-    .timeicon{
-        font-size: 5vw;
-    }
-
-    .phoneicon{
-        font-size: 5vw;
-    }
-
-    #professortitle{
-        font-size: 2.5vw;
-    }
-
-    #professortext{
-        font-size: 1.5vw;
-    }
-
-    .banner2{
-        width: 90vw;
-        margin-top: -40vh;
-        margin-left: 5vw;
-    }
-
-    #escolha{
-        display: flex;
-        margin-left: 25vw;
-    }
-
-    .professores{
-        margin-top: 100vh;
-
-    }
-
-    #listaprofessores{
-        margin-top: 20vh;
-
-    }
-
-    .plist{
-        width: 20vw;
-        margin-left: 14vw;
-    }
-
-
-
-   #listaprofessores .eloicon{
-        margin-left: 12vw;
-        width: 5vw;
-    }
-
-    body{
-        width: 100vw;
-    }
-}
-
-@media (min-width: 1400px) {
-    .header-nav {
-        display: flex;
-        justify-self: left;
-        width: 100%;
-}
-
-#imgbanner1{
-    display:flex;
-    float: right;
-    margin-top: 5vw;
-    width: 35vw;
-    margin-right: 0vw;
-    }
-
-
-#tempotitle{
-    margin-top: -20vh;
-}
-
-#tempotxt{
-    margin-top: -15vh;
-}
-
-.timeicon{
-    margin-top: -20vh;
-}
-#professortitle{
-    margin-top: -5vh;
-}
-
-#professortext{
-    margin-top: -0vh;
-}
-
-.phoneicon{
-    margin-top: -2vh;
-}
-
-.banner2{
-    margin-top: -35vh;
-}
-}
-
-@media (min-width: 1500px){
-    .banner2{
-        margin-top: 0vh;
-    }
-
-    .professores{
-        margin-top: 170vh;
-    }
-
-    .fcontainer{
-        margin-top: 250vh;
-    }
-}
-@media (min-width: 1600px){
-    #professores {
-        margin-left: -100vw;
-    }
-
-    #listaprofessores{
-        margin-left: -60vw;
-    }
-
-    .fcontainer{
-        width: 100%;
-    }
-}
-
-@media (min-width: 1650px){
-    .banner2{
-        margin-top: 0vh;
-    }
-
-    .professores{
-        margin-top: 160vh;
-    }
-    .professores{
-        display: flex;
-        position: absolute;
-        width: 100%;
-        height: 50vh;
-        margin-left: 0vw;
-        margin-top: 130vh;
-        justify-self: center;
-    
-        
-    }
-    
-    
-    #listaprofessores{
-        position: relative;
-        height: 50vh;
-        display: flex;
-        list-style: none;
-        flex-direction: row;
-        margin-left: -55vw;
-        width: 600vw;
-        justify-content: center;
-        ;
-    
-    }
-    
-    #listaprofessores .pfoto{
-        display: flex;
-        width: 150%;
-    }
-    
-     .plist{
-        border-style: solid;
-        border-radius: 5%;
-        border-color: rgb(175, 175, 175);
-        border-width: 0.5px;
-        padding: 1em;
-        margin-bottom: 2.5em; 
-        margin-left: 10vw ;  
-        width: 25vw;
-        
-    }
-    
-    #listaprofessores .eloicon{
-        display: flex;
-        width: 25%;
-        height: 2em;
-        margin-left: 15vw;
-        margin-top: -8vh;
-        
-    }
-    
-    #listaprofessores .maisbtn {
-        display: flex;
-        text-align: center;
-        align-content: center;
-        margin-left: 1vw;
-        margin-top: 5vh;
-        background-color: #ff0000; /* Green */
-        border: none;
-        color: white;
-        white-space: nowrap;
-        padding: 0.5em 3em;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 1em;
-        text-transform: uppercase;
-        border-radius: 8px;
-    }
-            .fcontainer{
-                margin-top: 250vh;
-                width: 100%
-            }
-}
-
-@media (min-width: 1700px){
-body{
-    width: 100%;
-}
-
-#escolha{
-    margin-top: 0vh;
-}
-
-    #gamelist{
-        margin-top: 20vh;
-    }
-    .professores{
-        margin-top: 60vh;
-    }
-    .professores{
-        display: flex;
-        position: absolute;
-        width: 40%;
-        height: 50vh;
-        margin-left: 0vw;
-        margin-top: 200vh;
-        justify-self: center;
-    }
-    
-    #professor1, #professor2, #professor3{
-        height: 5vh;
-    }
-    
-    #listaprofessores{
-        position: relative;
-        height: 50vh;
-        display: flex;
-        list-style: none;
-        flex-direction: row;
-        margin-left: -35vw;
-        width: 400vw;
-        justify-content: center;
-    
-    }
-    
-    #listaprofessores .pfoto{
-        display: flex;
-        width: 150%;
-    }
-    
-     .plist{
-        border-style: solid;
-        border-radius: 5%;
-        border-color: rgb(175, 175, 175);
-        border-width: 0.5px;
-        padding: 1em;
-        margin-bottom: 2.5em; 
-        margin-left: 10vw ;  
-        width: 15vw;
-        
-    }
-    
-    #listaprofessores .eloicon{
-        display: flex;
-        width: 25%;
-        height: 2em;
-        margin-left: 10vw;
-        margin-top: -7vh;
-        
-    }
-    
-    #listaprofessores .maisbtn {
-        display: flex;
-        text-align: center;
-        align-content: center;
-        margin-left:1.5vw;
-        margin-top: 5vh;
-        background-color: #ff0000; /* Green */
-        border: none;
-        color: white;
-        white-space: nowrap;
-        padding: 0.5em 3em;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 1em;
-        text-transform: uppercase;
-        border-radius: 8px;
-    }
-
-.fcontainer{
-    width: 100%;
-    margin-top: 280vh;
-}
-
-}
