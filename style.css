@@ -1,5 +1,7 @@
 /* reset */
 
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
 html {
     font-size: 100%;
     line-height: 1.5rem;
@@ -115,6 +117,7 @@ img {
         }
 
         .banner1 h2{
+        font-family: 'Abel', sans-serif;
         font-size: 2.5rem;
         margin-top: 1rem;
         font-weight: lighter;
@@ -126,13 +129,15 @@ img {
 
         #play {
         display:flex;
-        color: black;
+        color: rgb(7, 46, 90);
+        white-space: nowrap;
         }
 
         #rank {
 
         display: flex;
         color: red;
+        white-space: nowrap;
 
         }
 
@@ -219,10 +224,13 @@ img {
 
 .banner2{
     display: flex;
-    padding-top: 10rem;
+    margin-top: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
     justify-content: center;
     justify-items: center;
     flex-direction: column;
+    background-image: url(images/Loading_Screen_Breeze.png);
 }
 
             .banner2 p{
@@ -230,8 +238,9 @@ img {
             font-size: 1.5rem;
             text-transform: uppercase;
             white-space:nowrap;
-            color: rgb(75, 75, 75);
+            color: rgb(255, 255, 255);
             align-self: center;
+            text-shadow: 2px 2px rgb(18, 0, 83);
         }
 
             .banner2 img{
@@ -324,6 +333,10 @@ img {
     text-transform: uppercase;
     border-radius: 8px;
     margin-top: 1.5rem;
+}
+
+#professor3{
+    padding-right: none;
 }
 
 .hidden{
@@ -424,22 +437,50 @@ img {
 
 /* MEDIA QUERRY */
 
-@media (min-width: 700px){
+
+@media (min-width: 800px){
+
+    .logo{
+        margin-left: 2rem;
+        font-size: 2rem;
+    }
 
     .banner1 {
         display: flex;
         width: auto;
         flex-direction: row-reverse;
         justify-content: space-evenly;
+        padding-top: 2rem;
     }
 
 
     #play, #rank{
-        font-size: 4rem;
+        font-size: 6rem;
+    }
+
+    #rank{
+        padding-left: 6rem;
+    }
+    
+    .phoneicon{
+        padding-left: 1.2rem;
+    }
+
+    #professortitle{
+    padding-left: 0.5em;
+    }
+
+    #professortext{
+    padding-right: 2rem;
+    }
+
+    #temmpotxt{
+    margin-left: 0;
+    padding-right: 3rem;    
     }
 
     #tempotxt, #professortext{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     #imgbanner1{
@@ -450,7 +491,7 @@ img {
     }
 
     .professores{
-        padding-top: 3rem;
+        padding-top: 0rem;
         justify-content: center;
         justify-items: center;
         flex-direction: column;
@@ -481,3 +522,52 @@ img {
     justify-content: space-evenly;
     }
 }
+
+@media (max-width:1042px) and (min-height:1300px){
+    #tempotxt, #professortext{
+        font-size: 1rem;
+    }
+
+    .plist{
+        margin-right: 2rem;
+    }
+
+    #listaprofessores{
+        padding-left: 0rem;
+    }
+
+}
+
+@media (min-width: 700px) and (max-width: 1515px){
+    #play, #rank{
+    font-size: 3rem;
+    }
+
+    #imgbanner1{
+    width: 25rem;
+    }
+
+    #listaprofessores{
+        padding-left: 1rem;
+    }
+    .plist{
+    margin-right:1rem;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 950px){
+    
+    #listaprofessores{
+    flex-direction: column;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 799px){
+
+
+    #imgbanner1{
+    padding-left: 15rem;
+    width: 30rem;
+    }
+}
+    
